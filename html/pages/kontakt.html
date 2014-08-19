@@ -27,7 +27,7 @@
     <form method="post">
 		 
          <fieldset>
-         
+         <<legend>Fråga</legend>
           Ärende typ<select>
            	<option value="komkon">Kommerciel kontakt</option>
             <option value="samarbete">Sammarbete</option>
@@ -42,8 +42,15 @@
            
            Fråga:<textarea rows="4" cols="50">
            </textarea>
-           
            </fieldset>
+           
+           <fieldset>
+               <<legend>Information om dig</legend>
+                   <input type="checkbox" name="kontakt" value="mail">Kontakta mig via mail<br>
+                   <input type="checkbox" name="kontakt" value="phone">Kontakta mig via telefon
+           </fieldset>
+           
+           <input type="submit" value="Skicka förfrågan">
     </form>
 
 
