@@ -1,3 +1,59 @@
+/*Printable sida */
+@media print
+{
+	a:after
+	{
+		content:" (" attr(href) ") ";
+		font-size:0.8em;
+		font-weight:normal;
+		text-decoration:none;
+	}
+	#navigation
+	{
+		display:none;
+		z-index:0;
+		width:0;
+		position:relative;
+	}
+	#header
+	{
+		margin-left:10%;
+		margin-right:10%;
+	}
+	#header h1
+	{
+		font-family:"Times New Roman", Times, serif;
+		font-size:35px;
+	}
+	#container
+	{
+		float:left;
+		width:100%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	#content-area
+	{
+		margin-right:10%;
+		margin-left:10%;
+		clear:both;
+		width:100%;
+		z-index:100;
+	}
+	#footer
+	{
+		margin-left:10%;
+		margin-right:10%;	
+	}
+	#content-area p,h1,h2,h3
+	{
+		font-family:"Times New Roman", Times, serif;
+		font-size:18px;
+		position:relative;
+		z-index:1;
+	}
+}
+/* Normal sida */
 body
 {
 	background:url(pics/bg.png) fixed repeat-x;;
