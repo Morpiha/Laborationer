@@ -1,32 +1,35 @@
-div
-{
-	border: 2px solid;	
+body
+{	
 }
 #container
 {
     width:960px;
-    height:100%;
+    height:auto;
 	margin:0 auto;
 }
 #header
 {
     width:960px;
     height:150px;
+	background-color:#93B1C6;
 }
 #navigation
 {
     float:left;
     width:200px;
     height:150px;
+	background-color:#C7D0D5;
 }
 #content-area
 {
     float:right;
     width:750px;
+	margin-top:5px;
+	background-color:#F5F5F5;
 }
 #footer
 {
+	background-color:#93B1C6;
     width:960px;
     float:left;
-    
 }
