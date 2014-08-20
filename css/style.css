@@ -7,6 +7,10 @@ body
     height:auto;
 	margin:0 auto;
 }
+#logo
+{
+	margin-top:5px;	
+}
 #header
 {
     width:960px;
