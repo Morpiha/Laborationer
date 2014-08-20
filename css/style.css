@@ -15,10 +15,50 @@ body
 }
 #navigation
 {
-    float:left;
     width:200px;
     height:150px;
-	background-color:#C7D0D5;
+	float:left;
+}
+.menu
+{
+	overflow:hidden;
+	width:200px;
+	padding:0;
+	margin-top:5px;
+	float:left;
+	display:block;
+}
+.active
+{
+	color:#CCC;
+}
+.buttons
+{
+	color:#FFF;
+}
+#navigation a
+{
+	text-decoration:none;
+	text-shadow:1px 1px #000;
+	display: block;
+}
+#navigation li:hover
+{
+	background-color:#103D50;
+}
+#navigation li
+{
+	width:auto;
+	list-style-type:none;
+	margin-top:5px;
+	padding:0;
+	height:25px;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	background-color:#467386;
+	
 }
 #content-area
 {
@@ -32,4 +72,8 @@ body
 	background-color:#93B1C6;
     width:960px;
     float:left;
+}
+.active
+{
+	
 }
