@@ -121,6 +121,7 @@ h1,h2,p
 	text-decoration:none;
 	text-shadow:1px 1px #000;
 	display: block;
+	width:100%;
 }
 #navigation li:hover
 {
@@ -138,7 +139,7 @@ h1,h2,p
 	-moz-transition:1s;
 	-webkit-transition:1s;
 	background-color:#467386;
-	
+	padding-left:20px;
 }
 #content-area
 {
@@ -215,4 +216,36 @@ h1,h2,p
 .active
 {
 	
+}
+#start
+{
+	background:url(pics/sprite.png)0px 0px no-repeat;
+}
+#start:hover
+{
+	background:url(pics/sprite.png) 0px -48px no-repeat;	
+}
+#lab
+{
+	background:url(pics/sprite.png) 0px -94px no-repeat;
+}
+#lab:hover
+{
+	background:url(pics/sprite.png) 0px -142px no-repeat;	
+}
+#pres
+{
+	background:url(pics/sprite.png) 0px -190px no-repeat;	
+}
+#pres:hover
+{
+	background:url(pics/sprite.png) 0px -238px no-repeat;		
+}
+#kontakt
+{
+	background:url(pics/sprite.png) 0px -286px no-repeat;		
+}
+#kontakt:hover
+{
+	background:url(pics/sprite.png) 0px -334px no-repeat;		
 }
