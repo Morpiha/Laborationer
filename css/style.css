@@ -219,33 +219,33 @@ h1,h2,p
 }
 #start
 {
-	background:url(pics/sprite.png)0px 0px no-repeat;
+	background:url(pics/sprite.png) 0px -48px no-repeat;
 }
 #start:hover
 {
-	background:url(pics/sprite.png) 0px -48px no-repeat;	
+	background:url(pics/sprite.png)0px 0px no-repeat;
 }
 #lab
 {
-	background:url(pics/sprite.png) 0px -94px no-repeat;
+	background:url(pics/sprite.png) 0px -142px no-repeat;	
 }
 #lab:hover
 {
-	background:url(pics/sprite.png) 0px -142px no-repeat;	
+	background:url(pics/sprite.png) 0px -94px no-repeat;
 }
 #pres
 {
-	background:url(pics/sprite.png) 0px -190px no-repeat;	
+	background:url(pics/sprite.png) 0px -238px no-repeat;
 }
 #pres:hover
 {
-	background:url(pics/sprite.png) 0px -238px no-repeat;		
+	background:url(pics/sprite.png) 0px -190px no-repeat;		
 }
 #kontakt
 {
-	background:url(pics/sprite.png) 0px -286px no-repeat;		
+	background:url(pics/sprite.png) 0px -334px no-repeat;	
 }
 #kontakt:hover
 {
-	background:url(pics/sprite.png) 0px -334px no-repeat;		
+	background:url(pics/sprite.png) 0px -286px no-repeat;		
 }
