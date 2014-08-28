@@ -53,6 +53,14 @@
 		z-index:1;
 	}
 }
+/*Mobil version*/
+@media only screen 
+and (max-device-width : 480px) 
+{
+
+}
+
+
 /* Normal sida */
 body
 {
