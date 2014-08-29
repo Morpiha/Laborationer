@@ -59,17 +59,24 @@ and (max-device-width: 480px)
 {
 	body
 	{
+		top:0px;
 	}
 	#container
 	{
 		max-width:480px;
+		margin-left:0;
+		left:0;
+		top:0px;
+		padding:0 auto;
+		position:absolute;
 	}
 	#header
 	{
-		max-width:400px;
+		max-width:480px;
 		height:200px;
 		left:0;
 		margin:0;
+		top:0;
 	}
 	#footer
 	{
@@ -77,14 +84,29 @@ and (max-device-width: 480px)
 	}
 	#navigation
 	{
-		float:left;	
+		
+		min-width:480px;
+	}
+	#navigation li,ul,a
+	{
+		width:480px;	
+	}
+	.menu
+	{
+		width:480px;	
 	}
 	#content-area
 	{
-		width:450px;
-		max-width:450px;
-		left:0;
-		position:absolute;
+		width:480px;
+		max-width:480px;
+		margin-left:0px;
+		position:relative;
+		margin-top:150px;
+	}
+	#movie
+	{
+		width:300px;
+		height:180px;	
 	}
 }
 
