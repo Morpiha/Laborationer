@@ -60,6 +60,7 @@ and (max-device-width: 480px)
 	body
 	{
 		top:0px;
+		max-width:480px;
 	}
 	#container
 	{
@@ -73,10 +74,19 @@ and (max-device-width: 480px)
 	#header
 	{
 		max-width:480px;
-		height:200px;
+		height:350px;
 		left:0;
 		margin:0;
 		top:0;
+	}
+	#header img
+	{
+		margin-top:0;	
+	}
+	#vektor
+	{
+		width:460px;
+		height:460px;	
 	}
 	#footer
 	{
@@ -84,16 +94,17 @@ and (max-device-width: 480px)
 	}
 	#navigation
 	{
-		
+		width:480px;
 		min-width:480px;
 	}
 	#navigation li,ul,a
 	{
-		width:480px;	
+		width:480px;
 	}
 	.menu
 	{
-		width:480px;	
+		width:480px;
+		min-width:100%;	
 	}
 	#content-area
 	{
@@ -102,6 +113,18 @@ and (max-device-width: 480px)
 		margin-left:0px;
 		position:relative;
 		margin-top:150px;
+	}
+	#form
+	{
+		max-width:460px;
+	}
+	#upper-form
+	{
+		width:460px;
+	}
+	#lower-form
+	{
+		width:460px;	
 	}
 	#movie
 	{
