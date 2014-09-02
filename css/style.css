@@ -70,6 +70,7 @@ and (max-device-width: 480px)
 		top:0px;
 		padding:0 auto;
 		position:absolute;
+		overflow:hidden;
 	}
 	#header
 	{
