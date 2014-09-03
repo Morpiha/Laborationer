@@ -23,6 +23,7 @@ body
 	-webkit-transition: all .10s linear;
 	-moz-transition: all .10s linear;
 	transition: all .10s linear;
+	position:relative;
 }
 .images a:after
 {
