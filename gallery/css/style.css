@@ -55,3 +55,16 @@ body
 	-moz-transform: rotate(20deg);
 	transform:rotate(20deg);	
 }
+.images a:nth-child(4n)
+{
+	-webkit-transform:rotate(14deg);
+	-moz-transform: rotate(14deg);
+	transform:rotate(14deg);
+}
+.images a:nth-child(5n)
+{
+	-webkit-transform:rotate(44deg);
+	-moz-transform: rotate(44deg);
+	transform:rotate(44deg);
+}	
+}
