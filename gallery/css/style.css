@@ -7,7 +7,7 @@ body
 #container
 {
 	margin:0 auto;
-	width:75%;
+	width:60%;
 }
 
 /*Bild stilerna*/
@@ -48,4 +48,10 @@ body
 	-webkit-transform:rotate(6deg);
 	-moz-transform: rotate(6deg);
 	transform:rotate(6deg);	
+}
+.images a:nth-child(3n)
+{
+	-webkit-transform:rotate(20deg);
+	-moz-transform: rotate(20deg);
+	transform:rotate(20deg);	
 }
