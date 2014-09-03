@@ -16,5 +16,9 @@ body
 	padding:12px 12px 30px;
 	margin:15px;
 	float:left;
+	text-align:center;
 	text-decoration:none;
+	-webkit-box-shadow:0 5px 5px rgba(0,0,0, .4);
+	-moz-box-shadow:0 5px 5px rgba(0,0,0, .4);
+	box-shadow:0 5px 5px rgba(0,0,0, .4);
 }
