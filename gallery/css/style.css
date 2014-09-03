@@ -12,7 +12,6 @@ body
 .images a
 {
 	background-color:#FFF;
-	display:inline;
 	padding:12px 12px 30px;
 	margin:15px;
 	float:left;
@@ -21,4 +20,12 @@ body
 	-webkit-box-shadow:0 5px 5px rgba(0,0,0, .4);
 	-moz-box-shadow:0 5px 5px rgba(0,0,0, .4);
 	box-shadow:0 5px 5px rgba(0,0,0, .4);
+	-webkit-transition: all .10s linear;
+	-moz-transition: all .10s linear;
+	transition: all .10s linear;
+}
+.images a:after
+{
+	color:#000;
+	content:attr(title);	
 }
