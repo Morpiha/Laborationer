@@ -22,6 +22,11 @@ body
 }
 
 /*Bild stilerna*/
+img
+{
+	width:150px;
+	height:150px;	
+}
 .images a
 {
 	background-color:#FFF;
