@@ -8,6 +8,8 @@ body
 {
 	margin:0 auto;
 	width:60%;
+	position:relative;
+	top:70px;
 }
 
 /*Bild stilerna*/
@@ -71,5 +73,8 @@ body
 {
 	-webkit-transform:scale(1.5);
 	-moz-transform:scale(1.5);
-	transform:scale(1.5);	
+	transform:scale(1.5);
+	-webkit-box-shadow:0 15px 15px rgba(0,0,0, .4);
+	-moz-box-shadow:0 15px 15px rgba(0,0,0, .4);
+	box-shadow:0 15px 15px rgba(0,0,0, .4);
 }
