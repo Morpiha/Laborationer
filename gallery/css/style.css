@@ -1,13 +1,22 @@
 @charset "utf-8";
+
+@font-face
+{
+	font-family: Jura;
+	src:url(Jura-Medium.ttf);	
+}
+
 /* CSS Document */
 body
 {
-	background-color:#FC3;	
+	background-color:#FC3;
+	height:100%;
 }
 #container
 {
 	margin:0 auto;
 	width:60%;
+	min-height:100%;
 	position:relative;
 	top:70px;
 }
@@ -29,6 +38,7 @@ body
 	transition: all .10s linear;
 	position:relative;
 	z-index:1;
+	font-family:Jura;
 }
 .images a:after
 {
@@ -89,4 +99,10 @@ body
 	-moz-box-shadow:0 15px 15px rgba(0,0,0, .4);
 	box-shadow:0 15px 15px rgba(0,0,0, .4);
 	z-index:2;
+}
+footer
+{
+	bottom:0;
+	position:fixed;
+	font-family:Jura;
 }
