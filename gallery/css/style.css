@@ -27,5 +27,8 @@ body
 .images a:after
 {
 	color:#000;
-	content:attr(title);	
+	content:attr(title);
+	position:relative;
+	top:20px;
+	font-size:15px;
 }
