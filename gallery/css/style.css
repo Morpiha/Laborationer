@@ -48,17 +48,16 @@ img
 .images a:after
 {
 	color:#000;
-	content:attr(title);
 	position:relative;
 	top:20px;
 	font-size:15px;
+	content:attr(title);
 }
 .images img
 {
 	display:block;
-	width:inherit;	
+	width:inherit;
 }
-
 
 /*Var andra bild kommer vara lutad 6grader*/
 .images a:nth-child(2n)

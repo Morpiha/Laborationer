@@ -42,64 +42,83 @@
         <ul>
         	<li><a href="#lab1">Laboration 1</a></li>
             <li><a href="#lab2">Laboration 2</a></li>
-            <li><a href="https://preview.c9.io/morpiha/uppgift-3-3/index.html?_c9_id=livepreview3&_c9_host=https://ide.c9.io">C9 Preview</a></li>
+            <li><a href="https://cdn.rawgit.com/Morpiha/Uppgift-3-3/master/index.html">Copycat</a></li>
         </ul>
         
-        <table border="1">
-        <thead>
+        <table id="table">
+    	<thead>
         <tr>
-        	<th>Laboration
-            <th>Uppgift
-            <th>Status
-            <th>Redovisad
+        	<th>Laboration</th>
+            <th>Uppgift</th>
+            <th>Status</th>
+            <th>Redovisad</th>
         </tr>
         </thead>
-        <tbody>
-        <tr>
-        	<td rowspan="3" colspan="1">1
-            <td>1</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-           	<tr><td>2</td>
-            <td>N/A</td>
-            <td>N/A</td>
+        
+       <tfoot>
+			<tr>
+            	<td colspan="4">Laborationsresultat för Mikael</td>
             </tr>
-            <tr><td>3</td>
-            <td>N/A</td>
-            <td>N/A</td>
+       </tfoot>
+       
+       <tbody>
+       		<tr>
+           		<td rowspan="3">1</td>
+                <td>1</td>
+                <td>N/A</td>
+                <td>N/A</td>
             </tr>
-            </tbody>
             
-            <tfoot>
-       <tr><td rowspan="7" colspan="1">2</tr>
-       <tr> <td>1</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-       <tr>     
-            <td>2</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-        <tr>     
-            <td>3</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-        <tr>     
-            <td>4</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-         <tr>     
-            <td>5</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
-         <tr>     
-            <td>6</td>
-            <td>N/A</td>
-            <td>N/A</td></tr>
- 
- 	
-        <td colspan="4">Laborationsresultat för Mikael</td>
-        </tfoot>
-        </table>
+            <tr>
+            	<td>2</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>3</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td rowspan="6">2</td>
+                <td>1</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>2</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>3</td>
+            	<td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>4</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>5</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            
+            <tr>
+            	<td>6</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+       </tbody>
+       </table>
         
         
         
@@ -130,22 +149,22 @@
                 
 				<dl>
                   <dt>Skriv den absoluta sökvägen till filen bottom.html</dt>
-                   <dt>http://www.server.se/html/pages/bottom.html</dt>
+                   <dd>http://www.server.se/html/pages/bottom.html</dd>
   
                    <dt>Skriv den relativa sökvägen från filen default.html till filen top.html</dt>
-                    <dt>/pages/top.html</dt>
+                    <dd>/pages/top.html</dd>
 
                    	<dt>Skriv den relativa sökvägen från fillen bottom.html till filen index.html</dt>
-                   	<dt>../../index.html</dt>
+                   	<dd>../../index.html</dd>
 					          
                   	<dt>Skriv den absoluta sökvägen till filen index.html</dt>
-                    <dt>http://www.server.se/index.html</dt>
+                    <dd>http://www.server.se/index.html</dd>
    
                  	<dt>Skriv den relativa sökvägen från filen top.html till bottom.html</dt>
-                    <dt>bottom.html</dt>
+                    <dd>bottom.html</dd>
 
                   	<dt>Skriv den relativa sökvägen från filen index.html till top.html</dt>
-                    <dt>/html/pages/top.html</dt>
+                    <dd>/html/pages/top.html</dd>
 				</dl>
                 </li>
                 <li>Länkar och listor
@@ -162,19 +181,37 @@
 
 				</dl>
 				</li>
+                
                 <li>Bilder
+                <dl>
+                	
+                    <dt><a href="presentation.html#profil">Profil Bild</a></dt>
+                    	<dd>Direkt länk till Profil bilden</dd>
+                    
+                    <dt><a href="../../index.html#logo">Logo bild</a></dt>
+                    	<dd>Direkt länk till Logo bilden</dd>
+                    
+                    <dt><a href="#vektor">Vektor bild</a></dt>
+                    	<dd>Direkt länk till Vektor bilden</dd>
+					
+				</dl>
+				</li>
                 
-              	<dl><a href="presentation.html#profil">Profil bild</a></dl>
-                <dl><a href="../../index.html#logo">Logo bild</a></dl>
-                <dl><a href="#vektor">Vektor</a></dl>
-                </li>
                 
-                <li>Video
-                <dl><a href="../../index.html#video">Video-taggen</a></dl>
-                </li>
+               <li>Video
+               <dl>
                 
-                <li>HTML5 sida
-                <dl><a href="HTML5/index.html">HTML5 Sidan</a></dl>
+                    <dt><a href="../../index.html#video">Video</a></dt>
+                    <dd>Direkt länk till Videon</dd>
+               </dl>
+               </li>
+               
+               <li>
+               <dl>
+                    <dt><a href="HTML5/index.html">HTML5</a></dt>
+                    <dd>Direkt länk till HTML5 sidan</dd>
+
+				</dl>
                 </li>
             </ol>
 </div>            
